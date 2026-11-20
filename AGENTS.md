@@ -4,7 +4,7 @@ This file defines how coding agents should operate in this repository.
 
 ## What the project is
 
-<!-- TODO -->
+> **Template note:** Write a short project description here. Delete this note.
 
 ## User Interaction & Documentation Standards
 
@@ -43,3 +43,17 @@ Before adding, removing, or changing a dependency, read `SECURITY.md` and obey i
 - **Let pre-commit hooks run.** Fix the cause of a hook failure. Never use `--no-verify`.
 - **Check <https://www.githubstatus.com/>** before you retry or change anything after an unexplained git or GitHub failure.
 - **Fix review findings and incomplete work in the open PR.** Open a follow-up issue only for work deferred from a feature that is already merged.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues for `scottishwidow/scottishwidow-onprem` through the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The repo uses the five default triage labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Multi-context: `GLOSSARY-MAP.md` at the repo root points to one `GLOSSARY.md` per context (`common/`, `nextcloud/`). See `docs/agents/domain.md`.

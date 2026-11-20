@@ -1,8 +1,8 @@
 # Security Policy
 
-## Supply-Chain Hygiene
+> **Template note:** Ask an agent to adapt this policy to the project. For example, `package-lock.json` does not apply to Terraform. Delete this note.
 
-**An agent must:**
+## Supply-Chain Hygiene
 
 - **Pin each dependency to an exact version when possible.** If you use a version constraint, it must allow patch updates only (for example `~1.2.3` in npm, `~> 1.2.3` in Terraform, `~=1.2.3` in Python). Do not use `^`, `>=`, `*`, `latest`, or constraints that allow minor or major updates.
 - **Commit lock files** (for example `package-lock.json`, `uv.lock`, `poetry.lock`, `Cargo.lock`, `go.sum`).
